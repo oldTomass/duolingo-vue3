@@ -40,7 +40,7 @@ const submitForm = () => {
             // 保存全局Cookie
             console.log("-------cookie---", $Cookies.get("GO_COOKIE_HJM_0627"));
             // 跳转Home
-            // router.push('/home')
+            router.push('/home')
 
         }).catch((err) => {
             console.log(err);
