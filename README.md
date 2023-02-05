@@ -10,7 +10,7 @@
 
 ### npm i dayjs -S
 
-### npm i normalize.css -S ## naive-ui 库
+### npm i normalize.css -S
 
 ### npm i vue-cookies -S ## main.js 中配置
 
