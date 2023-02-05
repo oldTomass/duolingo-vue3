@@ -1,24 +1,19 @@
-# duolingo-vue3
+## duolingo-vue3
 
-## Project setup
-```
-npm install
-```
+### npm i axios -S
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### npm i element-plus -S 参考官网
 
-### Compiles and minifies for production
-```
-npm run build
-```
+    (按需导入,配置 webpack：在 vue.vonfig.js 中)
 
-### Lints and fixes files
-```
-npm run lint
-```
+### npm install -D unplugin-vue-components unplugin-auto-import
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### npm i dayjs -S
+
+### npm i normalize.css -S ## naive-ui 库
+
+### npm i vue-cookies -S ## main.js 中配置
+
+    app.use(naive) ## 导入 Cookie
+    import VueCookies from 'vue-cookies'
+    app.provide('$cookies', VueCookies);
