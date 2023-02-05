@@ -3,10 +3,14 @@
 </template>
 
 <script setup>
-import { inject } from 'vue'
-const $Cookies = inject(['$cookies'])
+import { inject, reactive } from 'vue'
+import axios from "axios";
+import base from "@/api/base";
 
+
+const $Cookies = inject(['$cookies'])
 const userName = $Cookies.get('GO_COOKIE_HJM_0627')
+
 
 </script>
 

@@ -13,6 +13,10 @@ const routes = [
     path:'/home',
     // name:'首页',
     component:()=>import('@/views/Home/home.vue')
+  },
+  {
+  path:'/openai',
+  component:()=>import('@/views/OpenAI/openai.vue')
   }
 ]
 const router = createRouter({

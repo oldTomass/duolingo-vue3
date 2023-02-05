@@ -13,7 +13,8 @@ module.exports = defineConfig({
    devServer:{
     proxy:{
       '/api':{
-        target:'http://localhost:9009', // 配置后端服务器地址
+        // target:'http://localhost:9009', // Duolingo配置后端服务器地址
+        target:'http://localhost:10086', // OpenAI配置后端服务器地址
         ws:true,
         changeOrigin:true,
         pathRewrite:{
@@ -22,7 +23,7 @@ module.exports = defineConfig({
       }
     }
   },
-  // 按需引入element-plus  配置
+  // 自动导入： 按需引入element-plus  配置
   configureWebpack:{ 
     plugins: [
       AutoImport({
